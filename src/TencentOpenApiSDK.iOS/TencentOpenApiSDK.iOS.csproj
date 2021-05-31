@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{8FFB629D-F513-41CE-95D2-7ECE97B6EEEC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}</ProjectGuid>
+    <TemplateGuid>{b6f3ff35-79b2-4f25-a2fc-60a7cf61013b}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TencentOpenAPI</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>TencentOpenApiSDK.iOS</AssemblyName>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <Compile Include="..\TencentOpenApiSDK.Android\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <ObjcBindingCoreSource Include="Structs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\local.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\qqicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\btn_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\btn_cancel_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\refresh%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_pengyouquan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_pengyouquan%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_qq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_qq%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_qzone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_qzone%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_safari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_safari%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_weixin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\share_weixin%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_back%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_backtogame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_backtogame%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_backward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_backward%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_for.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_for%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_forward%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_more%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_recommand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_recommand%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_stop%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_toolbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TencentOpenApi_IOS_Bundle.bundle\WebViewResources\webview_toolbg%402x.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
+</Project>

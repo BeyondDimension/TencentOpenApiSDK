@@ -1,0 +1,6 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.tencent.tauth']/interface[@name='IUiListener']/method[@name='onComplete' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
+     name="argsType">IUiListener_CompleteEventArgs</attr>
+  <attr path="/api/package[@name='com.tencent.tauth']/interface[@name='IRequestListener']/method[@name='onComplete' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]"
+     name="argsType">IRequestListener_CompleteEventArgs</attr>
+</metadata>

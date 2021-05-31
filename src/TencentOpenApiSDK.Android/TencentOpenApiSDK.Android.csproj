@@ -1,0 +1,12 @@
+<Project Sdk="MSBuild.Sdk.Extras">
+
+  <PropertyGroup>
+    <TargetFramework>MonoAndroid11.0</TargetFramework>
+    <IsBindingProject>true</IsBindingProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\*.jar" />
+    <TransformFile Include="Transforms\*.xml" />
+  </ItemGroup>
+</Project>

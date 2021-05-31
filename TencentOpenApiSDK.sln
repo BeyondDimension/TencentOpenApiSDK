@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TencentOpenApiSDK.Android", "src\TencentOpenApiSDK.Android\TencentOpenApiSDK.Android.csproj", "{80780609-1AC3-45AF-8A41-A0B0F32E755E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TencentOpenApiSDK.iOS", "src\TencentOpenApiSDK.iOS\TencentOpenApiSDK.iOS.csproj", "{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80780609-1AC3-45AF-8A41-A0B0F32E755E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80780609-1AC3-45AF-8A41-A0B0F32E755E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80780609-1AC3-45AF-8A41-A0B0F32E755E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80780609-1AC3-45AF-8A41-A0B0F32E755E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DCE9A7B-F191-4A2D-9A3A-75992AE128C8}
+	EndGlobalSection
+EndGlobal
