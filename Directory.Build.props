@@ -3,6 +3,12 @@
     <LangVersion>9.0</LangVersion>
     <Nullable>enable</Nullable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Authors>https://github.com/SteamTools-Team</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/SteamTools-Team/TencentOpenApiSDK</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SteamTools-Team/TencentOpenApiSDK.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>TencentOpenApi</PackageTags>
   </PropertyGroup>
   
   <PropertyGroup Condition=" Exists('$(MSBuildProjectDirectory)\..\..\..\SteamTools\Unicorn.pfx') ">
