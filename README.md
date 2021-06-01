@@ -49,3 +49,39 @@ sharpie bind \
     -scope TencentOpenAPI.framework/Headers \
     -c -F .
 ```
+
+# Android Reference 
+```
+com.tencent.connect.auth.AuthAgent
+import android.support.v4.app.Fragment;
+
+com.tencent.connect.auth.c
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+
+com.tencent.connect.common.BaseApi
+import android.support.v4.app.Fragment;
+
+com.tencent.open.a.a
+import okhttp3.ConnectionSpec;
+import okhttp3.FormBody;
+import okhttp3.Interceptor;
+import okhttp3.Interceptor.Chain;
+import okhttp3.MediaType;
+import okhttp3.MultipartBody;
+import okhttp3.OkHttpClient;
+import okhttp3.OkHttpClient.Builder;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+
+com.tencent.open.a.b
+import okhttp3.Response;
+import okhttp3.ResponseBody;
+
+com.tencent.open.utils.k
+import android.support.v4.content.FileProvider;
+
+com.tencent.tauth.Tencent
+import android.support.v4.app.Fragment;
+```

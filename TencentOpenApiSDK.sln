@@ -7,6 +7,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TencentOpenApiSDK.Android",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TencentOpenApiSDK.iOS", "src\TencentOpenApiSDK.iOS\TencentOpenApiSDK.iOS.csproj", "{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApp.Android", "src\ExampleApp.Android\ExampleApp.Android.csproj", "{F771F728-6F76-4CED-A94B-480258179D98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{A6129A14-0717-4E40-83B2-65B0C7905D96}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		README.en.md = README.en.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +33,12 @@ Global
 		{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E16C594-DAB4-4CFC-AFCE-141CD05D1C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F771F728-6F76-4CED-A94B-480258179D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F771F728-6F76-4CED-A94B-480258179D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F771F728-6F76-4CED-A94B-480258179D98}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F771F728-6F76-4CED-A94B-480258179D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F771F728-6F76-4CED-A94B-480258179D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F771F728-6F76-4CED-A94B-480258179D98}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
